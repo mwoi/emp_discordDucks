@@ -1,0 +1,14 @@
+Plan:
+ - Achieve compatability for *.java DONE
+ - implement BinSearch.java
+      i. 
+     ii. 
+    iii. 
+ - implement LinSearch.java
+      i. 
+     ii. 
+    iii. 
+ - implement timer (https://github.com/ap251/library/blob/main/resources/currentTimeMillis.md)
+
+Q's:
+ - WHERE THE GOOGFORM
