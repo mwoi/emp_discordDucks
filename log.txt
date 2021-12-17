@@ -1,1 +1,32 @@
-Nothing to see here, at least not yet.
+
+                 BIG PHAT LOG
+
+==============================================
+
+2021-12-16 :: 13:45 to 14:05
+ >> Drafted initial plan
+ >> Read over assignment
+ >> Were relieved to find no test tmrw
+
+==============================================
+
+2021-12-16 :: 18:40 to 19:30
+ >> Repo created (by mwoi)
+ >> Wrote linear search algo in LinSearch.java
+ >> Wrote binary search algo in BinSearch.java
+ >> Registered via googform
+ >> Worked on driver file -- got it to create an array and sort ti
+     >> We are still experiencing errors here
+ >> We have yet to implement the timer
+
+==============================================
+
+2021-12-17 :: 11:45
+ >> Updated and committed log
+
+==============================================
+
+2021-12-18 :: 13:?? to 14:05
+ >> TBD
+
+==============================================
