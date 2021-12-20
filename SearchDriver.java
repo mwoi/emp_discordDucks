@@ -1,3 +1,8 @@
+/*discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
+APCS PD8
+Lab03: Get Empirical
+2021-12-21
+Time Spent: xx hrs*/
 public class SearchDriver {
 
 	public static void main(String[] args) {
