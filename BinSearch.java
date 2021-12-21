@@ -8,6 +8,11 @@ Time Spent: xx hrs*/
    Binary search on array of Comparables
 **/
 
+/**
+   class BinSearch
+   Binary search on array of Comparables
+**/
+
 public class BinSearch
 {
 
@@ -51,7 +56,7 @@ public class BinSearch
       m = (lo + hi) / 2;
 
       // target found
-      if (a[m] == target) {
+      if ((int) a[m] == (int) target) {
         return m;
       }
 
