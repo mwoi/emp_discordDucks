@@ -2,8 +2,16 @@ discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
 APCS PD8
 Lab03: Get Empirical
 2021-12-21
-Time Spent: xx hrs
-NOTES
+Time Spent: 3.0 hrs
+
+                 NOTES
+
+==============================================
 
  >> Why are the algorithms returning -1 when they shouldn't?
- >> What is a comparable?
+     >> Comparables needed to be typecasted to int in order to be compared to integers
+ >> A comparable can store any data type which can be compared.
+ >> Why is the time for binary search sometimes higher for smaller arrays than it is for larger arrays?
+ >> Should the time for binary search be as low as it is for us? (0ms, almost always)
+ 
+ ==============================================
