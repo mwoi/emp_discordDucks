@@ -2,7 +2,8 @@ discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
 APCS PD8
 Lab03: Get Empirical
 2021-12-21
-Time Spent: xx hrs
+Time Spent: 3.0 hrs
+
                  BIG PHAT LOG
 
 ==============================================
@@ -19,7 +20,7 @@ Time Spent: xx hrs
  >> Wrote linear search algo in LinSearch.java
  >> Wrote binary search algo in BinSearch.java
  >> Registered via googform
- >> Worked on driver file -- got it to create an array and sort ti
+ >> Worked on driver file -- got it to create an array and sort it
      >> We are still experiencing errors here
  >> We have yet to implement the timer
 
@@ -36,4 +37,20 @@ Time Spent: xx hrs
  >> Updated this document
  >> Updated notes
 
+==============================================
+
+2021-12-20 :: 13:35 to 14:05
+ >> Fixed linear search code in LinSearch.java
+ >> Fixed binary search code in BinSearch.java
+ >> Tried to implement currentTimeMillis() in SearchDriver.java
+ 
+==============================================
+
+2021-12-20 :: 19:00 to 20:00
+ >> Fixed currentTimeMillis() in SearchDriver.java
+ >> Wrote methods to calculate time taken for linear and binary search
+ >> Wrote method fullTest, printing a report of the times to complete linear and binary search
+ >> Wrote method createAscendingArray, creating an array of ascending ints of specified length
+ >> Wrote test cases for arrays of different lengths, with random target values
+ 
 ==============================================
