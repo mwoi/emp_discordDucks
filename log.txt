@@ -30,7 +30,10 @@ Time Spent: xx hrs
 
 ==============================================
 
-2021-12-18 :: 13:?? to 14:05
- >> TBD
+2021-12-17 :: 13:45 to 14:05
+ >> Updated README to include everything specified on page
+ >> Reviewed the plans of others
+ >> Updated this document
+ >> Updated notes
 
 ==============================================
