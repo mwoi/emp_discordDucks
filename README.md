@@ -25,3 +25,77 @@
 These conclusions show that binary search is a significantly more efficient algorithm. The linear search time increases dramatically in each row (seemingly proportionally to the array size), whereas the binary search time stays very near to zero the entire time.
 
 This makes logical sense, as for an array size of 50,000,000, it should only take binary search up to 26 or so "divisions" of the array to find the answer. However, for linear search up to 50 million iterations to find the answer. Given this, it is actually somewhat strange that the average time for binary search isn't **lower**. However, it fluctuates very little, and the differences are fractions of a millisecond, so it is reasonably safe to assume that the binary search time is within a margin of error of 0.
+
+Raw results:
+```
+------------------------------------
+  Array Size: 100
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 0.0ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [0ms, 0ms]
+------------------------------------
+------------------------------------
+  Array Size: 500
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 0.01ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [0ms, 1ms]
+------------------------------------
+------------------------------------
+  Array Size: 10000
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 0.05ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [0ms, 1ms]
+------------------------------------
+------------------------------------
+  Array Size: 1000000
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 1.02ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [0ms, 2ms]
+------------------------------------
+------------------------------------
+  Array Size: 10000000
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 9.25ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [0ms, 20ms]
+------------------------------------
+------------------------------------
+  Array Size: 25000000
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 24.07ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [1ms, 46ms]
+------------------------------------
+------------------------------------
+  Array Size: 50000000
+  # of tests: 100
+
+  Average BinSearch time: 0.0ms
+  Average LinSearch time: 54.0ms
+
+  BinSearch time range: [0ms, 0ms]
+  LinSearch time range: [1ms, 95ms]
+------------------------------------
+```
