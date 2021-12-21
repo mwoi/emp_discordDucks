@@ -107,3 +107,7 @@ These conclusions show that binary search is a significantly more efficient algo
 This makes logical sense, as for an array size of 50,000,000, it should only take binary search up to 26 or so "divisions" of the array to find the item it's looking for. However, it could take linear search up to 50 million iterations to find the item it's looking for. Given this, it is actually somewhat strange that the average time for binary search isn't **lower**. However, it fluctuates very little, and the differences are fractions of a millisecond, so it is safe to assume that the binary search time is within a margin of error of 0.
 
 It's hard to come to any strong conclusions about binary search because there's so few data points. The only thing that we can confidently say about it is that it is much faster than linear search.
+
+## Gallery Tour
+
+TBA
