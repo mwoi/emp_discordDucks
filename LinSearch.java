@@ -1,8 +1,3 @@
-/*discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
-APCS PD8
-Lab03: Get Empirical
-2021-12-21
-Time Spent: xx hrs*/
 /**
    class LinSearch
 **/
@@ -18,18 +13,17 @@ public class LinSearch
   **/
   public static int linSearch ( Comparable[] a, Comparable target )
   {
-    int tPos = -1;
     int i = 0;
 
     while ( i < a.length ) {
-      if (a[i] == target) {
-        tPos = i;
+      if ((int) a[i] == (int) target) {
+        return i;
       }
+      //System.out.println(i);
       i++;
     }
-    return tPos;
+    return -1;
   }
-
 
   // utility/helper fxn to display contents of an array of Objects
   private static void printArray( Object[] arr )
