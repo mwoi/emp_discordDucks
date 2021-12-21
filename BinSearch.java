@@ -1,8 +1,9 @@
-/*discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
-APCS PD8
-Lab03: Get Empirical
-2021-12-21
-Time Spent: xx hrs*/
+// discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
+// APCS PD8
+// Lab03: Get Empirical
+// 2021-12-21
+// Time Spent: 3.5 hrs
+
 /**
    class BinSearch
    Binary search on array of Comparables
