@@ -2,7 +2,7 @@ discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
 APCS PD8
 Lab03: Get Empirical
 2021-12-21
-Time Spent: 3.5 hrs
+Time Spent: 3.3 hrs
 
                  BIG PHAT LOG
 
@@ -53,4 +53,21 @@ Time Spent: 3.5 hrs
  >> Wrote method createAscendingArray, creating an array of ascending ints of specified length
  >> Wrote test cases for arrays of different lengths, with random target values
  
+==============================================
+
+==============================================
+
+2021-12-20 :: 20:30 to 21:00
+ >> Updated README.md
+ >> Updated notes
+ 
+==============================================
+
+==============================================
+
+2021-12-21 :: 07:30 to 07:45
+ >> Finished updating README.md
+ >> Finalized notes.txt
+ >> Added updated heading to everything
+
 ==============================================
