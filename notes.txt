@@ -2,16 +2,19 @@ discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
 APCS PD8
 Lab03: Get Empirical
 2021-12-21
-Time Spent: 3.0 hrs
+Time Spent: 3.5 hrs
 
-                 NOTES
+/*******************
 
-==============================================
-
- >> Why are the algorithms returning -1 when they shouldn't?
-     >> Comparables needed to be typecasted to int in order to be compared to integers
- >> A comparable can store any data type which can be compared.
- >> Why is the time for binary search sometimes higher for smaller arrays than it is for larger arrays?
- >> Should the time for binary search be as low as it is for us? (0ms, almost always)
+DISCO:
+ * You need to use prefix currentTimeMillis() with "System"
+ * A comparable can be any data type which can be compared
+ * Comparables need to be typecasted to int to be compared with integers
+ * Binary search is much faster than linear search, particularly for longer arrays
+ * Java can't handle Comparable arrays larger than 80,000,000, and can't even hold those if using many other large arrays
  
- ==============================================
+QCC:
+ * Should the time for binary search be as low as it is for us? (0 ms, almost always)
+ * How long would the array need to be so that linear search takes a statistically significant amount of time?
+ 
+*******************/
