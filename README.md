@@ -9,6 +9,7 @@
  - We create 7 arrays of consecutive ascending numbers 1 to n, with n = 100, 500, 10,000, 1,000,000, 10,000,000, 25,000,000, and 50,000,000 respectively. For example, one array is 1, 2, 3... 98, 99, 100.
  - For each array, we choose 100 random items in the array, and time how long binary search and linear search take to find each chosen item. We calculate the average, min, and max of these times.
     - These calculated values represent *how* fast binary search and linear search were at searching the array.
+    - Although it's not going to be exactly accurate, the "max" value will roughly show the worst case scenario.
 
 ## Results
 
