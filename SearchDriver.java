@@ -1,3 +1,9 @@
+// discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
+// APCS PD8
+// Lab03: Get Empirical
+// 2021-12-21
+// Time Spent: 3.5 hrs
+
 import java.lang.System;
 
 public class SearchDriver {
@@ -36,7 +42,6 @@ public class SearchDriver {
 		int binaryMax = 0;
 		int linearMin = 999999;
 		int linearMax = 0;
-		//System.out.println("----------------------------------------------------------------");
 
 		for (int i = 0; i < numTests; i++) {
                         targetIndex = (int) (Math.random() * (nums.length - 1));
