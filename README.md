@@ -25,10 +25,6 @@ Here are the results from each of the seven arrays:
 
 Each row represents one of the seven arrays we tested. The columns show (in order) how long binary search took on average, how long linear search took on average, the range of how long binary search took, and the length of how long linear search took.
 
-These conclusions show that binary search is a significantly more efficient algorithm. The linear search time increases dramatically in each row (seemingly proportionally to the array size), whereas the binary search time stays very near to zero the entire time.
-
-This makes logical sense, as for an array size of 50,000,000, it should only take binary search up to 26 or so "divisions" of the array to find the answer. However, for linear search up to 50 million iterations to find the answer. Given this, it is actually somewhat strange that the average time for binary search isn't **lower**. However, it fluctuates very little, and the differences are fractions of a millisecond, so it is reasonably safe to assume that the binary search time is within a margin of error of 0.
-
 Raw results (as they appeared in the terminal):
 ```
 ------------------------------------
