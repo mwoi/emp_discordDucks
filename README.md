@@ -23,7 +23,7 @@ Here are the results from each of the seven arrays:
 | 25,000,000  | 0.01ms              | 20.61ms             | 0ms                  | 41ms                 |
 | 50,000,000  | 0.01ms              | 41.47ms             | 0ms                  | 82ms                 |
 
-Each row represents one of the seven arrays we tested. The columns show (in order) how long binary search took on average, how long linear search took on average, how long binary search took in the worst case, and how long linear search took in the worst case. In both binary search and linear search, the worst case was the last item.
+Each row represents one of the seven arrays we tested. The columns show (in order) how long binary search took on average, how long linear search took on average, how long binary search took in the worst case, and how long linear search took in the worst case. In both binary search and linear search, the last item in the array represents the worst case.
 
 Raw results (as they appeared in the terminal):
 ```
