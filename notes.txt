@@ -18,14 +18,21 @@ QCC:
  * How long would the array need to be so that linear search takes a statistically significant amount of time?
  
 Gallery Tour:
- * Implementing a worst, best, and random target, so that with linear, any item at the start of the array would be quicker than binary, and any term in the middle 
-   of the array will deem binary to be faster. (OrangeMarshmellows)
- * Linear starts increasing exponentially as the number of items in the array start increasing, while binary remains relatively the same. (MumbleCore)
- * Since the binary search shows 0ms for many of the tests, a good way to quantify it is the number of steps it took to locate the target, or the number of times
-   the array was accessed. (Walrus)
- * The conclusion of this group was that as the number of terms in the array get bigger, Binary search takes way less time than Linear search. 
-   They also had a similar conclusion as to where the terms in the array are very little, 
-   Binary and Linear take almost the same time with Linear being a bit quicker, and the 
-   difference at the start is small. (Consonants)
+   Selected findings from interesting projects:
+   
+ * [OrangeMarshmellows] Implementing a worst, best, and random target, so that with linear, any item at the start of the
+                        array would be quicker than binary, and any term in the middle of the array will deem binary to be
+                        faster.
+                        
+ * [MumbleCore] Linear starts increasing exponentially as the number of items in the array start increasing, while binary
+                remains relatively the same.
+                
+ * [Walrus] Since the binary search shows 0ms for many of the tests, a good way to quantify it is the number of steps it
+            took to locate the target, or the number of times the array was accessed.
+            
+ * [Consonants] The conclusion of this group was that as the number of terms in the array get bigger, Binary search takes
+                way less time than Linear search. They also had a similar conclusion as to where the terms in the array are
+                very little, Binary and Linear take almost the same time with Linear being a bit quicker, and the difference
+                at the start is small.
  
 *******************/
