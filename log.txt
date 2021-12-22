@@ -78,6 +78,6 @@ Time Spent: 4.4 hrs
  >> Implement worst-case scenario checker
  >> Updated README accordingly
  >> Adjusted plan
- >> Added "Gallery Tour" notes from class
+ >> Wrote QAF post concerning deets of "Gallery Tour" section to demystify
  
 ==============================================
