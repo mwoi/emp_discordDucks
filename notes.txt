@@ -23,5 +23,9 @@ Gallery Tour:
  * Linear starts increasing exponentially as the number of items in the array start increasing, while binary remains relatively the same. (MumbleCore)
  * Since the binary search shows 0ms for many of the tests, a good way to quantify it is the number of steps it took to locate the target, or the number of times
    the array was accessed. (Walrus)
+ * The conclusion of Ari's group was that as the number of terms in the array get bigger, Binary search takes way less time than Linear search. 
+   They also had a similar conclusion as to where the terms in the array are very little, 
+   Binary and Linear take almost the same time with Linear being a bit quicker, and the 
+   difference at the start is small.
  
 *******************/
