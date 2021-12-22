@@ -2,7 +2,7 @@
 // APCS PD8
 // Lab03: Get Empirical
 // 2021-12-21
-// Time Spent: 3.8 hrs
+// Time Spent: 4.4 hrs
 
 /**
    class LinSearch
