@@ -19,7 +19,7 @@ QCC:
  
 Gallery Tour:
  * Implementing a worst, best, and random target, so that with linear, any item at the start of the array would be quicker than binary, and any term in the middle 
-   of the array will deem binary to be faster. 
- * Linear starts increasing exponentially as the number of items in the array start increasing, while binary remains relatively the same.
+   of the array will deem binary to be faster. (OrangeMarshmellows)
+ * Linear starts increasing exponentially as the number of items in the array start increasing, while binary remains relatively the same. (MumbleCore)
  
 *******************/
