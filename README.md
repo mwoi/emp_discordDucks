@@ -8,8 +8,7 @@
 ## Tests Performed
  - We create 7 arrays of consecutive ascending numbers 1 to n, with n = 100, 500, 10,000, 1,000,000, 10,000,000, 25,000,000, and 50,000,000 respectively. For example, one array is 1, 2, 3... 98, 99, 100.
  - For each array, we choose 100 random items in the array, and time how long binary search and linear search take to find each chosen item. We calculate the average, min, and max of these times. We also search for the last item and time this. This gives us the worst-case scenario for each algorithm for each array size.
-    - These calculated values represent *how* fast binary search and linear search were at searching the array.
-    - Although it's not going to be exactly accurate, the "max" value will roughly show the worst case scenario.
+    - These calculated values represent *how* fast binary search and linear search were at searching the array, both randomly and in worst-case scenario.
 
 ## Results
 
@@ -102,8 +101,8 @@ Raw results (as they appeared in the terminal):
 
 ## Conclusions
 
-These conclusions show that binary search is a significantly more efficient algorithm. The linear search time increases dramatically in each row (roughly proportionally to the array size), whereas the binary search time stays very near to zero the entire time. These trends are true for both the average and the worst case.
+These conclusions show that binary search is a significantly more efficient algorithm. The linear search time increases dramatically in each row (roughly proportionally to the array size), whereas the average binary search time stays very near to zero the entire time. These trends are true for both the average and the worst case.
 
 This makes logical sense, as for an array size of 50,000,000, it should only take binary search up to 26 or so "divisions" of the array to find the item it's looking for. However, it could take linear search up to 50 million iterations to find the item it's looking for. Given this, it is actually somewhat strange that the average time for binary search isn't **lower**. However, the average it fluctuates very little, with these differences being fractions of a millisecond, so it is safe to assume that the binary search time is within a margin of error of 0. This is confirmed by the worst-case scenario, as in single trials for the worst case, binary search consistently takes 0ms.
 
-It's hard to come to any strong conclusions about binary search because there's so few data points, and the only non-zero times are clear outliers. The only thing that we *can* confidently say about it is that it is much faster than linear search.
+It's hard to come to any strong conclusions about binary search because there's so few data points, and the only non-zero times in the trials of 100 are clear outliers. The only thing that we *can* confidently say about it is that it is much, much faster than linear search.
