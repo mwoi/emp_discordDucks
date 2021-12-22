@@ -106,3 +106,22 @@ These conclusions show that binary search is a significantly more efficient algo
 This makes logical sense, as for an array size of 50,000,000, it should only take binary search up to 26 or so "divisions" of the array to find the item it's looking for. However, it could take linear search up to 50 million iterations to find the item it's looking for. Given this, it is actually somewhat strange that the average time for binary search isn't **lower**. However, the average it fluctuates very little, with these differences being fractions of a millisecond, so it is safe to assume that the binary search time is within a margin of error of 0. This is confirmed by the worst-case scenario, as in single trials for the worst case, binary search consistently takes 0ms.
 
 It's hard to come to any strong conclusions about binary search because there's so few data points, and the only non-zero times in the trials of 100 are clear outliers. The only thing that we *can* confidently say about it is that it is much, much faster than linear search.
+
+## Gallery Tour
+
+Selected findings from interesting projects:
+   
+ * **[OrangeMarshmellows]** Implementing a worst, best, and random target, so that with linear, any item at the start of the
+                        array would be quicker than binary, and any term in the middle of the array will deem binary to be
+                        faster.
+                        
+ * **[[MumbleCore]](https://github.com/lineil28/emp_MumbleCore)** Linear starts increasing exponentially as the number of items in the array start increasing, while binary
+                remains relatively the same.
+                
+ * **[[Walrus]](https://github.com/elam20/emp_Walrus)** Since the binary search shows 0ms for many of the tests, a good way to quantify it is the number of steps it
+            took to locate the target, or the number of times the array was accessed.
+            
+ * **[Consonants]** The conclusion of this group was that as the number of terms in the array get bigger, Binary search takes
+                way less time than Linear search. They also had a similar conclusion as to where the terms in the array are
+                very little, Binary and Linear take almost the same time with Linear being a bit quicker, and the difference
+                at the start is small.
