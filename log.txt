@@ -2,7 +2,7 @@ discordDucks: Kartik Vanjani + Krrish, Gabriel Thompson + Iggy, Marcus Wu + Nat
 APCS PD8
 Lab03: Get Empirical
 2021-12-21
-Time Spent: 3.8 hrs
+Time Spent: 4.4 hrs
 
                  BIG PHAT LOG
 
@@ -70,4 +70,14 @@ Time Spent: 3.8 hrs
  >> Finalized notes.txt
  >> Added updated heading to everything
 
+==============================================
+
+==============================================
+
+2021-12-21 :: 19:15 to 19:50
+ >> Implement worst-case scenario checker
+ >> Updated README accordingly
+ >> Adjusted plan
+ >> Added "Gallery Tour" notes from class
+ 
 ==============================================
