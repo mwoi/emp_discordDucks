@@ -14,5 +14,6 @@ Plan:
      ii. Test on test cases DONE
  - implement timer/tester (https://github.com/ap251/library/blob/main/resources/currentTimeMillis.md) DONE
       i. Calculate the average time it takes to search for 100 random items in an ascending array of length 500 (for both linear and binary search) DONE
-     ii. Print a report that shows how long the searches took on average DONE
-    iii. Repeat i and ii for other array lengths (100, 10000, 1000000, 10000000, 25000000, 50000000) DONE
+     ii. Calcualte the time it takes to find the last item (the worst-case scenario) DONE
+    iii. Print a report that shows how long these searches took on average, along with the worst-case scenario DONE
+     iv. Repeat i and ii for other array lengths (100, 10000, 1000000, 10000000, 25000000, 50000000) DONE
