@@ -5,6 +5,7 @@
 // Time Spent: 3.8 hrs
 
 import java.lang.System;
+import java.util.*;
 
 public class SearchDriver {
 
@@ -38,10 +39,6 @@ public class SearchDriver {
 		int[] linearTimes = new int[numTests];
 		int binaryTotal = 0;
 		int linearTotal = 0;
-		int binaryMin = 999999;
-		int binaryMax = 0;
-		int linearMin = 999999;
-		int linearMax = 0;
 
 		for (int i = 0; i < numTests; i++) {
                         targetIndex = (int) (Math.random() * (nums.length - 1));
@@ -50,27 +47,25 @@ public class SearchDriver {
 			binaryTotal += binaryTimes[i];
                         linearTimes[i] = (int) testLin(nums, target);
 			linearTotal += linearTimes[i];
-
-			if (linearTimes[i] > linearMax) { linearMax = linearTimes[i]; }
-			if (linearTimes[i] < linearMin) { linearMin = linearTimes[i]; }
-			if (binaryTimes[i] > binaryMax) { binaryMax = binaryTimes[i]; }
-			if (binaryTimes[i] < binaryMin) { binaryMin = binaryTimes[i]; }
                 }
+
+		long worstCaseBin = testBin(nums, (int) nums[nums.length - 1]);
+		long worstCaseLin = testLin(nums, (int) nums[nums.length - 1]);
 
 		System.out.println("------------------------------------");
 		System.out.println("  Array Size: " + nums.length);
 		System.out.println("  # of tests: " + numTests + "\n");
 		System.out.println("  Average BinSearch time: " + (double) binaryTotal / numTests + "ms");
 		System.out.println("  Average LinSearch time: " + (double) linearTotal / numTests + "ms\n");
-		System.out.println("  BinSearch time range: [" + binaryMin + "ms, " + binaryMax + "ms]");
-		System.out.println("  LinSearch time range: [" + linearMin + "ms, " + linearMax + "ms]");
+		System.out.println("  BinSearch worst case scenario: " + worstCaseBin + "ms");
+		System.out.println("  LinSearch worst case scenario: " + worstCaseLin + "ms");
 		System.out.println("------------------------------------");
 	}
 
 	public static Comparable[] createAscendingArray(int n) {
 		Comparable[] a = new Comparable[n];
-		for (int i = 1; i < n; i++) {
-			a[i - 1] = i;
+		for (int i = 0; i < n; i++) {
+			a[i] = i + 1;
 		}
 		return a;
 	}
@@ -79,6 +74,7 @@ public class SearchDriver {
 		Comparable[] nums;
 
 		nums = createAscendingArray(100);
+		System.out.println(Arrays.toString(nums));
 		fullTest(nums, 100);
 
                 nums = createAscendingArray(500);
